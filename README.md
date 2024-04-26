@@ -1,6 +1,6 @@
 # React + TypeScript + Vite + RTK + Docker
 
-## Steps:
+## Steps run without docker or makefile:
 
 - To install libs : ```npm install ```
 - To run test : ```npm run test```/ ```npm run test:ui```
@@ -15,4 +15,5 @@
 - ```make restart``` - restart the container
 - ```make clear``` - clear the container
 
+##### Note: if ```npm run test``` doesn't work after ```make``` commands please run the ```npm install``` command
 
