@@ -1,6 +1,8 @@
+import Login from './Login';
+
 const Greet = ({ name }: { name?: string }) => {
   if (name) return <h1>Hello {name}</h1>;
-  return <button>Login</button>;
+  return <Login />;
 };
 
 export default Greet;
