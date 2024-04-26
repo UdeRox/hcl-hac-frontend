@@ -9,7 +9,7 @@
 
 ## Make steps: (https://makefiletutorial.com/)
 
-
+- ```make install``` - install libs
 - ```make start``` - start the container
 - ```make stop``` - stop the container
 - ```make restart``` - restart the container
