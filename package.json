@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "hcl-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,11 +11,14 @@
     "format": "prettier --write ./src ./test",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "dev:docker": "docker-compose -f docker-compose.dev.yml up"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@reduxjs/toolkit": "^2.2.3",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-redux": "^9.1.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
